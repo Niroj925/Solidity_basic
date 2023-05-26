@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "mem",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"storagevsmemory.sol": "memnsto"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"storagevsmemory.sol": {
+			"keccak256": "0x901c24756d1225597ccaf6238eb56dbcaca6ef39227eebd145adad1d3a895a51",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://525b083452c0bc74e4b9eb534d18b7c5132ec2a60490c92bdd19977ae8fdc4b7",
+				"dweb:/ipfs/QmP6XG1BKkA44XLMTGYaWgt1SPZAK3NY4Q8QsqQ29A3Yk8"
+			]
+		}
+	},
+	"version": 1
+}

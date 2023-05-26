@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lottery",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u1",
+				"outputs": [
+					{
+						"internalType": "enum Enum.user",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"enum.sol": "Enum"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"enum.sol": {
+			"keccak256": "0x11c21245efb8a226aa45e42b470b2c3b24ce99f5ffcb19a09a1a719cb57c1e70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://95ce1e19f3c4accc5973e75e0bfdb5004205d6da5a41b33787cb0a0a1ed161e7",
+				"dweb:/ipfs/QmW228QAppJgyDoceRJdtP2wtNac3ABBbPeLs38BiMeRCV"
+			]
+		}
+	},
+	"version": 1
+}
